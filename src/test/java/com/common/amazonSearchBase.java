@@ -24,6 +24,11 @@ public class amazonSearchBase {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
+	public void getClose() {
+		
+		driver.close();
+	}
+	
 }
 
 
